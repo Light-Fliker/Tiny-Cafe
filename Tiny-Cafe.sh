@@ -24,11 +24,36 @@ done
 echo ""
 for i in {1..30}; do echo -n "*"; sleep 0.05; done
 echo ""
-echo -e "☕ Coffee    ......... \$3.00"
-echo -e "🍵 Tea       ......... \$2.50"
-echo -e "🥐 Croissant ......... \$4.00"
-echo -e "🍰 Cake      ......... \$5.50"
-echo -e "🥤 Smoothie  ......... \$4.50"
+coffee="☕ Coffee    ......... \$3.00"
+for ((i=0; i<${#coffee}; i++)); do
+    echo -n "${coffee:$i:1}"
+    sleep 0.05
+done
+echo ""
+tea="🍵 Tea       ......... \$2.50"
+for ((i=0; i<${#tea}; i++)); do
+    echo -n "${tea:$i:1}"
+    sleep 0.05
+done
+echo ""
+croissant="🥐 Croissant ......... \$4.00"
+for ((i=0; i<${#croissant}; i++)); do
+    echo -n "${croissant:$i:1}"
+    sleep 0.05
+done
+echo ""
+cake="🍰 Cake      ......... \$5.50"
+for ((i=0; i<${#cake}; i++)); do
+    echo -n "${cake:$i:1}"
+    sleep 0.05
+done
+echo ""
+smoothie="🥤 Smoothie  ......... \$4.50"
+for ((i=0; i<${#smoothie}; i++)); do
+    echo -n "${smoothie:$i:1}"
+    sleep 0.05
+done
+echo ""
 for i in {1..30}; do echo -n "*"; sleep 0.05; done
 echo ""
 read -p "what would you like: " choice
