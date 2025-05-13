@@ -1,5 +1,4 @@
 #!/bin/bash
 
-echo "this is my first commit and push"
-
+echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;echo "-";sleep 0.3;echo "-";echo "-";sleep 0.3;
 echo "thing"
